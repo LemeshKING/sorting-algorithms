@@ -211,10 +211,10 @@ int main()
 		for(const auto& i : shapes)
 			window.draw(i);
 	/*	quickSort(shapes, diap, jForQuick, iForQuick);*/
-		//ExchangeSort(shapes, i, j);
+		ExchangeSort(shapes, i, j);
 		//selectionSort(shapes, i, j, j_min);
-		if(countRun < shapes.size() + 1)
-			bubleSort(shapes, i, countRun);
+		//if(countRun < shapes.size() + 1)
+		//	bubleSort(shapes, i, countRun);
 		
 		window.display();
 		window.clear(sf::Color::White);
